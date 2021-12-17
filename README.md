@@ -1,2 +1,2 @@
 # Miner
-free vps lmao
+My Pkt Mining Scripts For VPS and linux systems !
