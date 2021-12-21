@@ -12,4 +12,4 @@ sudo apt install clang
 cargo clean 
 CC=clang cargo build --release --features jemalloc
 read pktwallet
-./packetcrypt_rs/target/release/packetcrypt ann -p $pktwallet http://pool.srizbi.com/ http://pool.pktpool.io/ http://pool.pkt.world/ http://pool.pkteer.com/ http://pktco.in/ http://pool-pkt.dlinodes.com:8080/
+./packetcrypt_rs/target/release/packetcrypt ann -p $pktwallet http://pool.srizbi.com/ http://pool.pkt.world/ http://pool.pkteer.com/ http://pool.pktpool.io/   http://pktco.in/ http://pool-pkt.dlinodes.com:8080/
