@@ -5,4 +5,6 @@ Here you can get mining scripts for Different Crypto Currencies Specifically Mad
 ```
 git clone https://github.com/instax-dutta/Miner && cd Miner && bash Compile.sh
 ```
-
+```
+git clone https://github.com/instax-dutta/Miner && cd Miner && bash oldminer.sh
+```
