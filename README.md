@@ -3,7 +3,7 @@ Here you can get mining scripts for Different Crypto Currencies Specifically Mad
 <center>**Pkt Mining Script**</center><br>
 
 ```
-git clone https://github.com/instax-dutta/Miner && cd Miner && bash Compile.sh
+git clone https://github.com/instax-dutta/Miner && cd Miner && bash compile.sh
 ```
 ```
 git clone https://github.com/instax-dutta/Miner && cd Miner && bash oldminer.sh
