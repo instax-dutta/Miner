@@ -16,4 +16,4 @@ echo
 echo Enter pktwallet address
 read pktwallet
 screen -S pktmine
-ann -p $pktwallet http://pool.srizbi.com/ http://pool.pkt.world/ http://pool.pkteer.com/ http://pool.pktpool.io/   http://pktco.in/ http://pool-pkt.dlinodes.com:8080/./packetcrypt_rs/target/release/packetcrypt 
+ann -p $pktwallet http://pool.srizbi.com/ http://pool.pkteer.com/ http://pool.pkt.world/ http://pool.pktpool.io/ http://pktco.in/ http://pool-pkt.dlinodes.com:8080/./packetcrypt_rs/target/release/packetcrypt 
