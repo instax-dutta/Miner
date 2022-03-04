@@ -4,11 +4,11 @@ Here you can get mining scripts for Different Crypto Currencies Specifically Mad
   <b>Only Use The Script For Ubuntu/Debian Machines<b>
 </center>
 
-AutoMated Miner ->
+AutoMated Miner script ->
 ```
     git clone https://github.com/instax-dutta/Miner && cd Miner && bash miner.sh
 ```
-Normal Scrip ->
+Normal Script ->
 ```
     git clone https://github.com/instax-dutta/Miner && cd Miner && bash Miner.sh
 ```
