@@ -33,7 +33,7 @@ if [ "${choice}" == "y" ]; then
     read -p "Do you want to start the miner ? [y/n]" choice1
     if [ "${choice1}" == "y" ]; then
         echo "Starting the miner..."
-        ./target/release/packetcrypt ann -p ${WALLET} http://pool.pkt.world/ http://pool.chymera.it/ http://pool.pktpool.io/ http://pktco.in/ http://pool.pkteer.com/ http://pool-pkt.dlinodes.com/ -t${THREAD}  
+        ./target/release/packetcrypt ann -p ${WALLET} http://pool.pkt.world/ http://pool.chymera.it/ http://pool.pktpool.io/ http://pktco.in/ http://pool.pkteer.com/ http://pool-pkt.dlinodes.com/ -t${THREAD} 2&>1 | grep goodrate 
     else
         echo "Exiting..."
     fi
