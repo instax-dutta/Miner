@@ -29,7 +29,6 @@ if [ "${choice}" == "y" ]; then
     cd packetcrypt_rs
     ~/.cargo/bin/cargo build --release
     echo "completed compiling the miner !!"
-    echo "Do you want to start the miner ? [y/n]"
     read -p "Do you want to start the miner ? [y/n]" choice1
     if [ "${choice1}" == "y" ]; then
         echo "Starting the miner..."
