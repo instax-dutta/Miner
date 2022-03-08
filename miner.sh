@@ -26,13 +26,13 @@ if [ "${choice}" == "y" ]; then
     sudo apt install gcc git make curl
     curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
     git clone https://github.com/cjdelisle/packetcrypt_rs
+    cd packetcrypt_rs
+    ~/.cargo/bin/cargo build --release
     echo "completed compiling the miner !!"
     read -p "Do you want to start the miner ? [y/n]" choice1
     if [ "${choice1}" == "y" ]; then
         read -p "Enter the pool order you want to use : " POOL
         echo "Starting the miner..."
-        cd packetcrypt_rs
-        ~/.cargo/bin/cargo build --release
         ./target/release/packetcrypt ann -p ${WALLET} ${POOL} -t${THREAD}  
     else
         echo "Exiting..."
