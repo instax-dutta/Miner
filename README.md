@@ -10,6 +10,6 @@ AutoMated Miner script ->
 ```
 Normal Script ->
 ```
-    git clone https://github.com/instax-dutta/Miner && cd Miner && bash MinerV1.sh
+    git clone https://github.com/instax-dutta/Miner && cd Miner && bash minerV1.sh
 ```
     
