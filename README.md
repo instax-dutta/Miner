@@ -10,6 +10,6 @@ Compiler + miner ->
 ```
 restart script after stopping ->
 ```
-    git clone https://github.com/instax-dutta/Miner && cd Miner && bash minerV1.sh
+cd Miner && bash restart.sh
 ```
     
