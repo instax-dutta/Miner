@@ -27,7 +27,6 @@ if [ "${choice}" == "y" ]; then
     curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
     git clone https://github.com/cjdelisle/packetcrypt_rs
     echo "completed compiling the miner !!"
-    echo "Do you want to start the miner ? [y/n]"
     read -p "Do you want to start the miner ? [y/n]" choice1
     if [ "${choice1}" == "y" ]; then
         read -p "Enter the pool order you want to use : " POOL
