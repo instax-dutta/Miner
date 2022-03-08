@@ -20,6 +20,7 @@ echo  ...........
 echo  ..............
 read -p "Enter your wallet address: " WALLET
 read -p "How many Threads you want to give to the miner ?" THREAD
+read -p "Enter the pool order you want to use : " POOL
 read -p "Do you want to continue compiling the miner ? [y/n]" choice
 if [ "${choice}" == "y" ]; then
     echo "Compiling the miner..."
@@ -31,7 +32,6 @@ if [ "${choice}" == "y" ]; then
     echo "completed compiling the miner !!"
     read -p "Do you want to start the miner ? [y/n]" choice1
     if [ "${choice1}" == "y" ]; then
-        read -p "Enter the pool order you want to use : " POOL
         echo "Starting the miner..."
         ./target/release/packetcrypt ann -p ${WALLET} ${POOL} -t${THREAD} 2&>1 | grep goodrate 
     else
