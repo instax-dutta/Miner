@@ -6,7 +6,7 @@ Here you can get mining scripts for PacketCrpyt Mining Specifically Made For Lin
 
 Compiler + miner ->
 ```
-    git clone https://github.com/instax-dutta/Miner && cd Miner && bash miner.sh
+git clone https://github.com/instax-dutta/Miner && cd Miner && bash miner.sh
 ```
 restart script after stopping ->
 ```
