@@ -12,4 +12,7 @@ restart script after stopping ->
 ```
 cd Miner && bash restart.sh
 ```
-    
+Non Self Compiled Miner for WorkFlows
+```
+git clone https://github.com/instax-dutta/Miner && cd Miner && bash auto.sh
+```
