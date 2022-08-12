@@ -33,7 +33,7 @@ if [ "${choice}" == "y" ]; then
     read -p "Do you want to start the miner ? [y/n]" choice1
     if [ "${choice1}" == "y" ]; then
         echo "Starting the miner..."
-        ./target/release/packetcrypt ann -p ${WALLET} ${POOL} -t${THREAD} 2&>1 | grep goodrate 
+        ./target/release/packetcrypt ann -p ${WALLET} ${POOL} -t${THREAD} | grep goodrate 
     else
         echo "Exiting..."
     fi
